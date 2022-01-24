@@ -1,5 +1,11 @@
 -- venyx ui lib reuploaded by me
 -- init
+if game:GetService("CoreGui"):FindFirstChild("XOP HUB [ Blox Fruit ]") then
+    game:GetService("CoreGui"):FindFirstChild("XOP HUB [ Blox Fruit ]"):Destroy()
+end
+
+
+
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
 
